@@ -1,0 +1,8 @@
+jupyterlab
+ipykernel
+numpy
+
+## Le reste n'est pas imoportant pour l'exercice
+pandas
+matplotlib
+seaborn
