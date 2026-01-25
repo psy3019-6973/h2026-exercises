@@ -12,5 +12,12 @@ matrice = np.array([
 "###################################################"
 ], dtype=str)
 
-for line in matrice:
-    print(line)
+for i, line in enumerate(matrice):
+    random_line = '1234r2345234r234f23rfnewinrfc²ienr²jrf'
+    f = open(f"resultat{i+1}.txt", "x")
+    f.write(line)
+    f.write("\n")
+    f.write(random_line)
+    f.close()
+
+    
