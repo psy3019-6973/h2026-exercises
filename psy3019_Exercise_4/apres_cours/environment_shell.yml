@@ -1,0 +1,9 @@
+name: shell
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - pip

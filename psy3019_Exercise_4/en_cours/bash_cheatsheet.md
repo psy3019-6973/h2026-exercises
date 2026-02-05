@@ -1,0 +1,53 @@
+# 🐚 BASH / TERMINAL — CHEATSHEET EXPRESS
+
+`commande -options arguments`
+
+---
+
+## 🧠 VARIABLES & WILDCARDS
+
+echo $SHELL → afficher variable
+
+VAR=bonjour → créer variable
+
+* \* → n’importe quels caractères
+* ? → un seul caractère
+* . → dossier courant
+* .. → dossier parent
+* ~ → dossier perso
+
+---
+
+## 🟩 Explorer son sysytème de fichiers
+
+
+* pwd → où suis-je
+* ls → voir contenu
+* tree → arborescence
+* cd dossier → entrer
+* cat fichier → tout afficher
+* less fichier → lire en scrollant (q pour quitter)
+* head fichier → début fichier
+* find . -name "*.txt" → chercher fichier
+* grep "mot" fichier → chercher texte
+
+---
+
+## 🟨 Façonner son système de fichiers
+
+* touch fichier → créer fichier vide
+* nano fichier → éditer fichier
+* mkdir dir → créer dossier
+* cp -r d1 d2 → copier dossier
+* mv a b → déplacer / renommer
+* rm fichier → supprimer fichier
+
+---
+
+## 🟧 Donner de la vie à son système de fichiers
+
+* bash script.sh → lancer avec bash
+* chmod +x script.sh → rendre exécutable
+* cmd1 | cmd2 → sortie → entrée
+* \> fichier → écraser vers fichier
+* \>> fichier → ajouter à la fin
